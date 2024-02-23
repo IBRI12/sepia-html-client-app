@@ -9,6 +9,8 @@ const xml2js = require('xml2js');
 // here add/remove permissions you need for Android app
 let permissions = [
   'com.android.alarm.permission.SET_ALARM'
+  'com.android:name="android.permission.CALL_PHONE'
+
 ];
 
 module.exports = function (context) {
